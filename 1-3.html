@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Ejercicio 1</h1>
+ 
+    <h2>1.3</h2>
+   
+    <p id="output">0</p>
+    <div class="first-row">
+       <button id="r1-1" onclick="reset()" style="width: 138px;">C</button>
+       <button id="r1-2" value="=" onclick="solucion()" >=</button>
+       <button id="r1-3" value="/" onclick="mostrarValor('/')">/</button>
+    </div>
+    <div class="second-row">
+       <button id="r2-1" value="7" onclick="mostrarValor('7')" >7</button>
+       <button id="r2-2" value="8" onclick="mostrarValor('8')" >8</button>
+       <button id="r2-3" value="9" onclick="mostrarValor('9')" >9</button>
+       <button id="r2-4" value="X" onclick="mostrarValor('*')" >X</button>
+    </div>
+    <div class="third-row">
+       <button id="r3-1" value="4" onclick="mostrarValor('4')" >4</button>
+       <button id="r3-2" value="5" onclick="mostrarValor('5')" >5</button>
+       <button id="r3-3" value="6" onclick="mostrarValor('6')" >6</button>
+       <button id="r3-4" value="-" onclick="mostrarValor('-')" >-</button>
+    </div>
+    <div class="fourth-row">
+       <button id="r4-1" value="1" onclick="mostrarValor('1')"  >1</button>
+       <button id="r4-2" value="2" onclick="mostrarValor('2')" >2</button>
+       <button id="r4-3" value="3" onclick="mostrarValor('3')" >3</button>
+       <button id="r4-4" value="+" onclick="mostrarValor('+')"  >+</button>
+    </div>
+
+
+    <script src="calculadora2.js"></script>  
+</body>
+</html>
